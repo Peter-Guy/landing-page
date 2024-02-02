@@ -1,6 +1,8 @@
 body{
     padding-left: 70px;
     padding-right: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+                 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .header{
     font-weight: bolder;
@@ -32,8 +34,7 @@ li{
     bottom:45px;
     top: 45px;
 }
-.one, .two, .three,
-.four{
+.one, .two, .three, .four{
     padding-left: 70px;
     padding-right: 70px;
     display: flex;
@@ -52,17 +53,84 @@ li{
 .two{
     flex-direction: column;
     flex: auto;
+    justify-content: center;
+    gap: 20px;
 }
-img{
-    width: 100px;
-    height: 100px;
+#title2{
+    align-self: center;
+    font-size: 25px;
+    color: black;
+}
+.showroom{
+    display: flex;
+    justify-content: space-around;
+}
+.subtitles{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+.menupics{
+    border: solid 3px rgb(91, 113, 236);
+    border-radius: 15px;
+    width: 110px;
+    height: 110px;
 }
 .three{
+    padding-left: 150px;
+    padding-right: 150px;
     flex: auto;
-    background-color: rgb(126, 126, 160);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: rgb(171, 171, 209);
+}
+.trestext{
+    font-size: 25px;
+    color: rgb(63, 55, 55);
+}
+.quote{
+    font-size: 20px;
+    color:black;
 }
 .four{
     flex: auto;
+    align-content: center;
+    justify-content: center;
+}
+.call{
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.subtitle{
+    color: rgb(216, 216, 216);
+}
+#content4{
+    background-color: rgb(84, 107, 212);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    width: 1000px;
+    height: 100px;
+}
+#button4{
+    color: white;
+    border: 2px solid white;
+    background-color: rgb(87, 156, 247);
+    border-radius: 7px;
+    align-self: center;
+    height: 35px;
+    width: 9em;
+}
+#button4:hover{
+    background-color: rgb(109, 50, 218);
 }
 .footer{
     display: flex;
